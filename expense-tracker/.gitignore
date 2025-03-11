@@ -1,0 +1,32 @@
+# Dossiers et fichiers générés automatiquement
+bin/
+obj/
+out/
+
+# Fichiers de logs et de debug
+*.log
+*.vspscc
+*.vssscc
+.vs/
+.idea/
+*.user
+*.suo
+*.cache
+*.pdb
+*.dll
+
+# Fichiers de configuration spécifiques à l’environnement
+*.config
+*.db
+*.bak
+
+# Fichiers de build
+*.exe
+*.app
+*.out
+*.class
+*.jar
+*.csproj.user
+project.lock.json
+.DS_Store
+Thumbs.db
