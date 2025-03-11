@@ -1,0 +1,41 @@
+<Window xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="using:notes_manager"
+    mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="500"
+    x:Class="notes_manager.MainWindow"
+    x:DataType="local:MainWindow"
+    Title="notes_manager">
+    <StackPanel Margin="10">
+        <ListBox Name="NotesList" ItemsSource="{Binding Notes}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <Grid>
+                            <TextBlock Text="{Binding Text}"
+                                IsVisible="{Binding IsEditing, Converter={StaticResource InvBoolConverter}}"
+                            />
+                            <TextBox Text="{Binding Text}"
+                                IsVisible="{Binding IsEditing, Converter={StaticResource BoolConverter}}"
+                            />
+                        </Grid>
+                        <Button Content="Edit" Command="{Binding EditCommand}"
+                            IsVisible="{Binding IsEditing, Converter={StaticResource InvBoolConverter}}"
+                        />
+                        <Button Content="Save" Command="{Binding SaveCommand}"
+                            IsVisible="{Binding IsEditing, Converter={StaticResource BoolConverter}}"
+                        />
+                        <Button Content="Delete" Command="{Binding DeleteCommand}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <TextBox Name="NoteInput" Margin="0,10"
+            TextWrapping="Wrap" AcceptsReturn="True" Height="100"
+        />
+        <StackPanel Orientation="Horizontal" Margin="0,10">
+            <Button Name="AddNoteButton" Content="(+) Add Note" />
+        </StackPanel>
+    </StackPanel>
+</Window>
