@@ -1,0 +1,15 @@
+/Users/pierregueroult/Developpement/learning/learning-C#/text-analyzer/bin/Debug/net8.0/text-analyzer
+/Users/pierregueroult/Developpement/learning/learning-C#/text-analyzer/bin/Debug/net8.0/text-analyzer.deps.json
+/Users/pierregueroult/Developpement/learning/learning-C#/text-analyzer/bin/Debug/net8.0/text-analyzer.runtimeconfig.json
+/Users/pierregueroult/Developpement/learning/learning-C#/text-analyzer/bin/Debug/net8.0/text-analyzer.dll
+/Users/pierregueroult/Developpement/learning/learning-C#/text-analyzer/bin/Debug/net8.0/text-analyzer.pdb
+/Users/pierregueroult/Developpement/learning/learning-C#/text-analyzer/obj/Debug/net8.0/text-analyzer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pierregueroult/Developpement/learning/learning-C#/text-analyzer/obj/Debug/net8.0/text-analyzer.AssemblyInfoInputs.cache
+/Users/pierregueroult/Developpement/learning/learning-C#/text-analyzer/obj/Debug/net8.0/text-analyzer.AssemblyInfo.cs
+/Users/pierregueroult/Developpement/learning/learning-C#/text-analyzer/obj/Debug/net8.0/text-analyzer.csproj.CoreCompileInputs.cache
+/Users/pierregueroult/Developpement/learning/learning-C#/text-analyzer/obj/Debug/net8.0/text-analyzer.sourcelink.json
+/Users/pierregueroult/Developpement/learning/learning-C#/text-analyzer/obj/Debug/net8.0/text-analyzer.dll
+/Users/pierregueroult/Developpement/learning/learning-C#/text-analyzer/obj/Debug/net8.0/refint/text-analyzer.dll
+/Users/pierregueroult/Developpement/learning/learning-C#/text-analyzer/obj/Debug/net8.0/text-analyzer.pdb
+/Users/pierregueroult/Developpement/learning/learning-C#/text-analyzer/obj/Debug/net8.0/text-analyzer.genruntimeconfig.cache
+/Users/pierregueroult/Developpement/learning/learning-C#/text-analyzer/obj/Debug/net8.0/ref/text-analyzer.dll
